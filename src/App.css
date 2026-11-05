@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fa;
+  color: #222;
+}
+
+header {
+  background: #172554;
+  color: white;
+  padding: 25px 8%;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.hero {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero input {
+  width: 80%;
+  max-width: 550px;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+main {
+  padding: 35px 8%;
+}
+
+.rooms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.room-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #ddd;
+}
+
+.room-card button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.room-card button:hover {
+  background: #172554;
+}
